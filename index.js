@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Add delay for staggered animations
                 setTimeout(() => {
                     element.classList.add('active');
-                }, index * 30);
+                }, index * 50);
             } else {
                 element.classList.remove('active');
             }
